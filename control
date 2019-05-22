@@ -1,0 +1,11 @@
+Package: com.alex.tweakcount2
+Name: Tweak Count 2
+Depends: mobilesubstrate
+Conflicts: com.alex.tweaksnumber
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Show how many tweaks you have installed in Cydia!
+Maintainer: Alexandre <alexandre31.tweak@gmail.com>
+Author: Alexandre <alexandre31.tweak@gmail.com>
+Section: Tweaks
+Depiction: http://therid.github.io/depiction/tweakcount2/theme.html

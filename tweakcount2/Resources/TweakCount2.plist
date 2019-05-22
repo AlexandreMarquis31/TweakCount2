@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>Enable</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>CountTotal</string>
+			<key>label</key>
+			<string>Count all packages</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Navigation Bar</string>
+			<key>footerText</key>
+			<string>Place "#*" where you want to put the number of tweak.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>EnableNavBar</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>GreyColor</string>
+			<key>label</key>
+			<string>Blue Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Packages: #*</string>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>TitleNavBar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Packages list footer</string>
+			<key>footerText</key>
+			<string>Place "#*" where you want to put the number of tweak.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>EnableTable</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Total number of tweaks installed: #*</string>
+			<key>defaults</key>
+			<string>com.alex.tweakcount2</string>
+			<key>key</key>
+			<string>TitleTable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>See Also</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>PythAlarm</string>
+			<key>action</key>
+			<string>openPythAlarm</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Bluetooth Devices Renamer</string>
+			<key>action</key>
+			<string>openBluetoothDevicesRenamer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Bluetooth's Name in Settings</string>
+			<key>action</key>
+			<string>openBluetoothNameInSettings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSUITextViewTableCell</string>
+			<key>label</key>
+			<string>Please donate to support my work! :)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate</string>
+			<key>action</key>
+			<string>donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Tweak Count 2</string>
+</dict>
+</plist>
